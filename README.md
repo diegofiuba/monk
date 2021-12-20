@@ -10,4 +10,4 @@
 
 ## Docs Requirements
 
-* Jupyter Notebook# monk
+* Jupyter Notebook
