@@ -1,0 +1,769 @@
+Embarazos,Glucosa,Presion sanguinea,Grosor de piel,Insulina,IMC,Funcion pedigree diabetes,Edad,Diabetes
+6 a 11,prediabetes,normal,medio,<141,obesidad,0 a 0.85,adulta,si
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+6 a 11,prediabetes,normal,fino,<141,normal,0 a 0.85,joven,si
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,medio,141 a 281,obesidad,>=1.64,joven,si
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,si
+6 a 11,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,prediabetes,normal,medio,422 a 563,obesidad,0 a 0.85,adulta,si
+6 a 11,normal,hipertension,fino,<141,bajo peso,0 a 0.85,adulta,si
+0 a 5,normal,hipertension,fino,<141,obesidad,0 a 0.85,joven,no
+6 a 11,prediabetes,normal,fino,<141,obesidad,0 a 0.85,joven,si
+6 a 11,normal,riesgoso,fino,<141,sobrepeso,0.85 a 1.64,adulta,no
+0 a 5,prediabetes,normal,fino,>=705,obesidad,0 a 0.85,adulta,si
+0 a 5,prediabetes,normal,fino,141 a 281,sobrepeso,0 a 0.85,adulta,si
+6 a 11,normal,normal,fino,<141,obesidad,0 a 0.85,joven,si
+0 a 5,normal,riesgoso,medio,141 a 281,obesidad,0 a 0.85,joven,si
+6 a 11,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,si
+0 a 5,normal,normal,medio,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,si
+0 a 5,normal,riesgoso,medio,141 a 281,obesidad,0 a 0.85,joven,no
+6 a 11,normal,riesgoso,fino,<141,obesidad,0 a 0.85,adulta,no
+6 a 11,prediabetes,hipertension,fino,<141,obesidad,0 a 0.85,adulta,si
+6 a 11,normal,riesgoso,medio,<141,sobrepeso,0 a 0.85,joven,si
+6 a 11,prediabetes,hipertension,fino,141 a 281,obesidad,0 a 0.85,adulta,si
+6 a 11,normal,normal,fino,<141,obesidad,0 a 0.85,adulta,si
+6 a 11,prediabetes,normal,fino,<141,obesidad,0 a 0.85,adulta,si
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+>=12,prediabetes,riesgoso,fino,<141,normal,0 a 0.85,adulta,no
+0 a 5,normal,hipertension,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,adulta,no
+0 a 5,prediabetes,normal,medio,141 a 281,obesidad,0.85 a 1.64,joven,si
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+6 a 11,normal,hipertension,fino,<141,normal,0 a 0.85,joven,no
+6 a 11,normal,normal,fino,<141,sobrepeso,0 a 0.85,adulta,no
+0 a 5,normal,normal,fino,141 a 281,normal,0.85 a 1.64,joven,no
+6 a 11,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+6 a 11,normal,normal,medio,<141,obesidad,0 a 0.85,adulta,si
+0 a 5,normal,normal,medio,<141,obesidad,0 a 0.85,joven,si
+0 a 5,normal,normal,medio,141 a 281,obesidad,0.85 a 1.64,adulta,si
+0 a 5,prediabetes,normal,fino,<141,obesidad,0 a 0.85,joven,no
+6 a 11,normal,riesgoso,fino,<141,obesidad,0 a 0.85,joven,no
+6 a 11,normal,hipertension,fino,<141,normal,0 a 0.85,adulta,no
+6 a 11,prediabetes,hipertension,fino,141 a 281,obesidad,0 a 0.85,adulta,si
+6 a 11,prediabetes,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,prediabetes,normal,medio,<141,obesidad,>=1.64,joven,si
+0 a 5,prediabetes,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+6 a 11,normal,normal,fino,<141,obesidad,0 a 0.85,joven,si
+6 a 11,normal,normal,fino,<141,bajo peso,0 a 0.85,joven,no
+0 a 5,normal,riesgoso,fino,<141,normal,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+6 a 11,prediabetes,hipertension,medio,281 a 422,obesidad,0 a 0.85,adulta,si
+6 a 11,prediabetes,normal,medio,281 a 422,obesidad,0 a 0.85,adulta,no
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+6 a 11,prediabetes,normal,medio,281 a 422,obesidad,0 a 0.85,adulta,si
+0 a 5,normal,riesgoso,medio,<141,obesidad,0.85 a 1.64,joven,no
+0 a 5,prediabetes,riesgoso,fino,<141,obesidad,>=1.64,adulta,no
+0 a 5,normal,normal,medio,141 a 281,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,bajo peso,0 a 0.85,joven,no
+6 a 11,normal,normal,fino,<141,obesidad,0 a 0.85,joven,si
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,prediabetes,normal,medio,<141,sobrepeso,0 a 0.85,joven,no
+6 a 11,normal,normal,fino,<141,obesidad,0 a 0.85,adulta,si
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,riesgoso,fino,<141,obesidad,0.85 a 1.64,joven,si
+0 a 5,normal,hipertension,fino,<141,obesidad,0 a 0.85,adulta,no
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+0 a 5,prediabetes,riesgoso,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0.85 a 1.64,joven,si
+0 a 5,normal,normal,medio,<141,sobrepeso,0 a 0.85,joven,no
+>=12,normal,hipertension,fino,<141,obesidad,0 a 0.85,adulta,si
+0 a 5,normal,riesgoso,fino,141 a 281,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+6 a 11,normal,normal,fino,<141,obesidad,0 a 0.85,adulta,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,si
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,bajo peso,0 a 0.85,joven,no
+6 a 11,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+0 a 5,normal,hipertension,fino,<141,obesidad,0 a 0.85,joven,si
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+>=12,normal,normal,medio,<141,obesidad,0 a 0.85,adulta,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+>=12,normal,normal,fino,<141,obesidad,0 a 0.85,adulta,si
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+0 a 5,normal,riesgoso,fino,141 a 281,obesidad,0 a 0.85,joven,no
+6 a 11,normal,normal,medio,<141,obesidad,0 a 0.85,adulta,no
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,adulta,si
+0 a 5,prediabetes,riesgoso,fino,<141,normal,0 a 0.85,joven,no
+6 a 11,prediabetes,normal,fino,141 a 281,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+6 a 11,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,hipertension,medio,141 a 281,obesidad,0 a 0.85,joven,si
+0 a 5,prediabetes,normal,fino,<141,obesidad,0.85 a 1.64,joven,si
+0 a 5,prediabetes,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,hipertension,fino,<141,normal,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0.85 a 1.64,joven,no
+0 a 5,normal,normal,fino,141 a 281,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,hipertension,fino,<141,normal,0 a 0.85,joven,no
+0 a 5,prediabetes,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,riesgoso,fino,<141,obesidad,0 a 0.85,joven,si
+0 a 5,prediabetes,normal,fino,<141,obesidad,0 a 0.85,joven,si
+6 a 11,prediabetes,normal,fino,422 a 563,obesidad,0 a 0.85,adulta,si
+0 a 5,normal,normal,medio,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+6 a 11,prediabetes,normal,fino,141 a 281,obesidad,0 a 0.85,joven,si
+0 a 5,prediabetes,hipertension,fino,<141,obesidad,0 a 0.85,anciana,si
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,si
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+0 a 5,prediabetes,normal,medio,<141,obesidad,0 a 0.85,joven,si
+6 a 11,normal,normal,medio,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,riesgoso,fino,<141,sobrepeso,0 a 0.85,anciana,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,si
+0 a 5,normal,normal,medio,<141,obesidad,0 a 0.85,joven,si
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,medio,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,riesgoso,fino,141 a 281,obesidad,0 a 0.85,joven,si
+0 a 5,normal,riesgoso,fino,<141,sobrepeso,0 a 0.85,anciana,si
+0 a 5,prediabetes,normal,fino,141 a 281,sobrepeso,0 a 0.85,joven,si
+6 a 11,normal,normal,fino,<141,obesidad,0.85 a 1.64,joven,si
+0 a 5,prediabetes,normal,medio,141 a 281,obesidad,0 a 0.85,joven,si
+6 a 11,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,riesgoso,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,281 a 422,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,adulta,no
+0 a 5,normal,riesgoso,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+6 a 11,normal,normal,fino,<141,obesidad,0 a 0.85,adulta,si
+0 a 5,prediabetes,normal,fino,281 a 422,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,bajo peso,0 a 0.85,joven,no
+6 a 11,normal,riesgoso,medio,<141,obesidad,0 a 0.85,adulta,no
+0 a 5,normal,normal,medio,<141,obesidad,0.85 a 1.64,joven,no
+0 a 5,prediabetes,normal,fino,<141,obesidad,0 a 0.85,anciana,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,medio,141 a 281,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+6 a 11,prediabetes,riesgoso,fino,141 a 281,obesidad,0.85 a 1.64,adulta,si
+0 a 5,prediabetes,riesgoso,medio,422 a 563,obesidad,0 a 0.85,joven,no
+6 a 11,prediabetes,normal,fino,<141,obesidad,0 a 0.85,adulta,si
+6 a 11,prediabetes,riesgoso,medio,<141,obesidad,0 a 0.85,joven,si
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+>=12,prediabetes,normal,medio,<141,obesidad,0 a 0.85,adulta,si
+0 a 5,prediabetes,hipertension,medio,<141,sobrepeso,0 a 0.85,joven,no
+6 a 11,normal,normal,medio,<141,obesidad,0 a 0.85,adulta,no
+0 a 5,normal,riesgoso,medio,281 a 422,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,riesgoso,fino,<141,obesidad,0 a 0.85,joven,si
+6 a 11,normal,normal,fino,141 a 281,sobrepeso,0 a 0.85,adulta,si
+0 a 5,prediabetes,normal,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,hipertension,fino,<141,sobrepeso,0 a 0.85,joven,no
+6 a 11,normal,riesgoso,fino,<141,obesidad,0 a 0.85,joven,si
+6 a 11,normal,normal,fino,<141,obesidad,0 a 0.85,joven,si
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,medio,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+6 a 11,prediabetes,normal,medio,<141,obesidad,0 a 0.85,joven,si
+6 a 11,normal,normal,fino,<141,obesidad,0 a 0.85,adulta,no
+0 a 5,normal,hipertension,medio,<141,obesidad,0 a 0.85,joven,si
+0 a 5,prediabetes,normal,fino,<141,obesidad,0 a 0.85,adulta,no
+0 a 5,normal,riesgoso,fino,<141,obesidad,0.85 a 1.64,joven,si
+6 a 11,normal,riesgoso,fino,<141,normal,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,prediabetes,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+6 a 11,prediabetes,normal,fino,<141,obesidad,0 a 0.85,adulta,si
+6 a 11,prediabetes,normal,medio,422 a 563,obesidad,0 a 0.85,adulta,si
+0 a 5,normal,hipertension,medio,<141,obesidad,0.85 a 1.64,joven,si
+6 a 11,normal,normal,medio,<141,sobrepeso,0 a 0.85,joven,si
+0 a 5,normal,riesgoso,medio,141 a 281,obesidad,0 a 0.85,joven,si
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+6 a 11,normal,normal,medio,<141,obesidad,0 a 0.85,joven,no
+6 a 11,prediabetes,normal,fino,<141,obesidad,0 a 0.85,joven,si
+6 a 11,normal,normal,fino,<141,obesidad,0 a 0.85,joven,si
+6 a 11,normal,normal,fino,<141,normal,0 a 0.85,adulta,no
+0 a 5,prediabetes,riesgoso,medio,141 a 281,obesidad,0 a 0.85,joven,si
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,joven,si
+0 a 5,normal,normal,medio,<141,obesidad,0.85 a 1.64,joven,si
+0 a 5,prediabetes,normal,fino,281 a 422,obesidad,0 a 0.85,joven,si
+0 a 5,normal,riesgoso,fino,<141,obesidad,0.85 a 1.64,joven,no
+0 a 5,normal,riesgoso,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+6 a 11,normal,normal,fino,141 a 281,obesidad,0 a 0.85,adulta,no
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+6 a 11,prediabetes,normal,fino,141 a 281,obesidad,0 a 0.85,adulta,si
+0 a 5,prediabetes,hipertension,fino,<141,obesidad,0 a 0.85,adulta,si
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+6 a 11,prediabetes,riesgoso,fino,<141,obesidad,0 a 0.85,adulta,si
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,prediabetes,riesgoso,medio,<141,obesidad,0 a 0.85,joven,no
+6 a 11,prediabetes,hipertension,fino,<141,obesidad,0 a 0.85,adulta,no
+0 a 5,prediabetes,normal,fino,<141,obesidad,0 a 0.85,joven,si
+6 a 11,normal,riesgoso,fino,141 a 281,obesidad,0 a 0.85,joven,si
+>=12,prediabetes,normal,medio,141 a 281,obesidad,0 a 0.85,joven,si
+0 a 5,normal,normal,medio,<141,obesidad,0 a 0.85,joven,si
+6 a 11,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0.85 a 1.64,joven,si
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,adulta,si
+0 a 5,prediabetes,normal,fino,422 a 563,obesidad,0.85 a 1.64,joven,si
+0 a 5,prediabetes,hipertension,fino,<141,obesidad,0 a 0.85,anciana,si
+6 a 11,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+6 a 11,prediabetes,normal,fino,141 a 281,sobrepeso,0 a 0.85,anciana,no
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,prediabetes,normal,medio,<141,obesidad,0 a 0.85,joven,si
+0 a 5,prediabetes,normal,medio,>=705,obesidad,>=1.64,joven,no
+0 a 5,normal,riesgoso,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,prediabetes,riesgoso,fino,<141,obesidad,0 a 0.85,joven,si
+6 a 11,normal,riesgoso,medio,281 a 422,obesidad,0 a 0.85,adulta,si
+0 a 5,normal,riesgoso,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,prediabetes,normal,fino,<141,obesidad,0 a 0.85,joven,si
+6 a 11,prediabetes,riesgoso,fino,141 a 281,obesidad,0 a 0.85,adulta,si
+0 a 5,prediabetes,hipertension,fino,<141,obesidad,0 a 0.85,joven,si
+6 a 11,prediabetes,riesgoso,fino,<141,obesidad,0 a 0.85,joven,si
+0 a 5,normal,normal,fino,<141,bajo peso,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,si
+6 a 11,normal,normal,fino,141 a 281,sobrepeso,0.85 a 1.64,joven,si
+0 a 5,prediabetes,normal,medio,141 a 281,obesidad,0 a 0.85,joven,no
+6 a 11,prediabetes,riesgoso,fino,<141,obesidad,0.85 a 1.64,adulta,si
+6 a 11,normal,normal,fino,<141,obesidad,0 a 0.85,adulta,no
+0 a 5,prediabetes,hipertension,fino,563 a 705,obesidad,0 a 0.85,joven,no
+6 a 11,normal,normal,fino,281 a 422,obesidad,0 a 0.85,joven,no
+0 a 5,normal,riesgoso,fino,<141,obesidad,0 a 0.85,joven,no
+6 a 11,normal,normal,fino,<141,obesidad,0 a 0.85,adulta,no
+0 a 5,normal,riesgoso,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,riesgoso,fino,<141,normal,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+>=12,normal,normal,fino,141 a 281,sobrepeso,0.85 a 1.64,adulta,si
+0 a 5,normal,normal,medio,<141,obesidad,0 a 0.85,joven,si
+0 a 5,normal,normal,medio,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,prediabetes,normal,fino,281 a 422,sobrepeso,0 a 0.85,joven,no
+6 a 11,prediabetes,normal,fino,141 a 281,obesidad,0.85 a 1.64,adulta,si
+0 a 5,prediabetes,normal,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,prediabetes,normal,fino,<141,obesidad,0 a 0.85,joven,si
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,prediabetes,riesgoso,fino,<141,obesidad,0 a 0.85,anciana,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,si
+0 a 5,normal,normal,fino,<141,obesidad,0.85 a 1.64,adulta,no
+0 a 5,normal,normal,fino,<141,obesidad,0.85 a 1.64,joven,si
+0 a 5,normal,normal,medio,<141,obesidad,0.85 a 1.64,joven,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,prediabetes,normal,fino,<141,sobrepeso,0 a 0.85,joven,si
+6 a 11,normal,riesgoso,medio,<141,obesidad,0.85 a 1.64,joven,si
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+0 a 5,normal,normal,medio,<141,obesidad,0 a 0.85,joven,no
+>=12,normal,normal,fino,<141,obesidad,0 a 0.85,adulta,no
+0 a 5,normal,normal,medio,<141,obesidad,0 a 0.85,joven,no
+6 a 11,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,si
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,adulta,no
+0 a 5,normal,normal,fino,141 a 281,sobrepeso,0.85 a 1.64,joven,no
+0 a 5,prediabetes,normal,fino,<141,obesidad,0 a 0.85,joven,si
+6 a 11,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+6 a 11,normal,riesgoso,fino,141 a 281,obesidad,0 a 0.85,joven,no
+6 a 11,prediabetes,riesgoso,fino,<141,obesidad,0 a 0.85,adulta,si
+0 a 5,normal,riesgoso,fino,<141,sobrepeso,0 a 0.85,adulta,si
+6 a 11,normal,normal,fino,<141,sobrepeso,0 a 0.85,adulta,no
+0 a 5,prediabetes,riesgoso,medio,422 a 563,obesidad,0 a 0.85,joven,no
+0 a 5,normal,riesgoso,medio,141 a 281,obesidad,0 a 0.85,joven,si
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+0 a 5,normal,normal,medio,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,riesgoso,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,si
+0 a 5,normal,normal,medio,141 a 281,obesidad,0.85 a 1.64,joven,si
+0 a 5,normal,normal,medio,141 a 281,obesidad,0 a 0.85,joven,si
+0 a 5,prediabetes,normal,fino,<141,normal,0 a 0.85,anciana,no
+6 a 11,prediabetes,normal,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,prediabetes,normal,medio,281 a 422,sobrepeso,0 a 0.85,joven,si
+0 a 5,normal,riesgoso,fino,141 a 281,obesidad,0 a 0.85,joven,no
+>=12,normal,normal,fino,141 a 281,obesidad,0 a 0.85,adulta,si
+6 a 11,normal,normal,fino,<141,normal,0 a 0.85,adulta,no
+0 a 5,prediabetes,normal,fino,<141,obesidad,0 a 0.85,joven,si
+0 a 5,prediabetes,normal,fino,<141,obesidad,0 a 0.85,joven,si
+0 a 5,normal,riesgoso,medio,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,hipertension,fino,<141,obesidad,0 a 0.85,joven,si
+0 a 5,prediabetes,normal,fino,<141,normal,0 a 0.85,joven,no
+0 a 5,normal,normal,medio,<141,obesidad,0 a 0.85,joven,no
+6 a 11,prediabetes,normal,fino,<141,sobrepeso,0 a 0.85,adulta,si
+0 a 5,normal,normal,fino,141 a 281,normal,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,141 a 281,obesidad,0.85 a 1.64,joven,si
+0 a 5,normal,normal,fino,141 a 281,obesidad,0.85 a 1.64,joven,si
+6 a 11,normal,normal,fino,<141,sobrepeso,0 a 0.85,adulta,no
+0 a 5,normal,normal,medio,141 a 281,obesidad,0 a 0.85,joven,no
+0 a 5,prediabetes,normal,fino,<141,sobrepeso,0 a 0.85,joven,si
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+6 a 11,normal,riesgoso,fino,<141,obesidad,0.85 a 1.64,adulta,si
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,riesgoso,fino,<141,normal,0 a 0.85,joven,no
+0 a 5,prediabetes,normal,fino,<141,obesidad,0 a 0.85,joven,si
+0 a 5,normal,normal,medio,<141,obesidad,0 a 0.85,joven,no
+6 a 11,prediabetes,normal,fino,<141,normal,0 a 0.85,adulta,si
+0 a 5,normal,normal,fino,141 a 281,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,si
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,si
+>=12,prediabetes,hipertension,fino,<141,sobrepeso,0 a 0.85,adulta,si
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,prediabetes,normal,fino,141 a 281,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,141 a 281,obesidad,0 a 0.85,joven,si
+6 a 11,prediabetes,normal,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,riesgoso,medio,<141,obesidad,0 a 0.85,joven,si
+6 a 11,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+6 a 11,normal,normal,fino,<141,normal,0.85 a 1.64,adulta,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,prediabetes,normal,fino,<141,obesidad,0 a 0.85,adulta,si
+>=12,normal,riesgoso,fino,<141,normal,0 a 0.85,adulta,no
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+0 a 5,prediabetes,normal,medio,141 a 281,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0.85 a 1.64,adulta,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,adulta,si
+6 a 11,prediabetes,normal,medio,141 a 281,obesidad,0.85 a 1.64,joven,si
+6 a 11,prediabetes,riesgoso,fino,<141,obesidad,0 a 0.85,adulta,si
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,medio,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,riesgoso,fino,<141,obesidad,0 a 0.85,joven,no
+6 a 11,normal,normal,fino,<141,obesidad,0 a 0.85,adulta,no
+6 a 11,normal,riesgoso,medio,<141,obesidad,0 a 0.85,adulta,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+0 a 5,normal,riesgoso,fino,<141,obesidad,0 a 0.85,joven,si
+0 a 5,normal,riesgoso,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,riesgoso,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,riesgoso,fino,<141,obesidad,0 a 0.85,adulta,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+6 a 11,prediabetes,riesgoso,fino,<141,obesidad,0 a 0.85,adulta,si
+0 a 5,normal,normal,medio,141 a 281,obesidad,0.85 a 1.64,joven,si
+>=12,normal,normal,fino,<141,obesidad,0 a 0.85,adulta,si
+>=12,normal,normal,medio,<141,obesidad,0 a 0.85,adulta,no
+0 a 5,prediabetes,normal,medio,141 a 281,obesidad,0.85 a 1.64,joven,si
+0 a 5,prediabetes,normal,fino,281 a 422,obesidad,0 a 0.85,joven,si
+0 a 5,prediabetes,normal,fino,<141,sobrepeso,0 a 0.85,anciana,no
+0 a 5,normal,hipertension,medio,<141,obesidad,0 a 0.85,anciana,no
+0 a 5,prediabetes,normal,fino,<141,obesidad,0 a 0.85,anciana,si
+0 a 5,prediabetes,normal,fino,281 a 422,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+6 a 11,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,si
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+0 a 5,normal,riesgoso,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,hipertension,fino,<141,obesidad,0 a 0.85,adulta,si
+0 a 5,prediabetes,riesgoso,medio,422 a 563,obesidad,>=1.64,joven,si
+0 a 5,normal,normal,fino,<141,bajo peso,>=1.64,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,medio,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,medio,141 a 281,obesidad,0 a 0.85,joven,no
+>=12,prediabetes,riesgoso,medio,281 a 422,obesidad,0 a 0.85,adulta,si
+0 a 5,normal,riesgoso,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,medio,<141,obesidad,0 a 0.85,joven,no
+0 a 5,prediabetes,normal,fino,<141,obesidad,0 a 0.85,joven,si
+0 a 5,normal,hipertension,medio,<141,obesidad,0.85 a 1.64,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,141 a 281,sobrepeso,0.85 a 1.64,joven,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0.85 a 1.64,joven,no
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,si
+6 a 11,normal,hipertension,medio,<141,obesidad,0 a 0.85,adulta,si
+0 a 5,prediabetes,riesgoso,fino,281 a 422,obesidad,0 a 0.85,adulta,si
+0 a 5,normal,normal,fino,<141,obesidad,0.85 a 1.64,joven,no
+0 a 5,normal,normal,fino,141 a 281,obesidad,0 a 0.85,adulta,no
+0 a 5,prediabetes,normal,fino,<141,obesidad,0 a 0.85,joven,si
+0 a 5,normal,normal,fino,281 a 422,normal,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+0 a 5,prediabetes,normal,fino,<141,obesidad,0 a 0.85,joven,si
+0 a 5,normal,normal,fino,141 a 281,sobrepeso,0.85 a 1.64,joven,no
+0 a 5,normal,normal,medio,<141,normal,0.85 a 1.64,joven,no
+0 a 5,normal,normal,medio,<141,obesidad,0 a 0.85,joven,si
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+0 a 5,prediabetes,normal,fino,<141,obesidad,0 a 0.85,joven,si
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,si
+6 a 11,normal,normal,fino,<141,normal,0 a 0.85,adulta,no
+0 a 5,normal,riesgoso,medio,<141,obesidad,0 a 0.85,joven,si
+6 a 11,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,prediabetes,normal,fino,<141,obesidad,0 a 0.85,adulta,si
+0 a 5,normal,normal,fino,141 a 281,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,adulta,si
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+6 a 11,prediabetes,normal,fino,<141,sobrepeso,0.85 a 1.64,joven,si
+0 a 5,prediabetes,normal,medio,563 a 705,obesidad,0 a 0.85,joven,si
+6 a 11,normal,hipertension,medio,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,141 a 281,obesidad,0 a 0.85,joven,no
+0 a 5,prediabetes,riesgoso,fino,281 a 422,obesidad,0.85 a 1.64,joven,no
+0 a 5,prediabetes,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,medio,141 a 281,obesidad,0 a 0.85,joven,si
+0 a 5,prediabetes,riesgoso,fino,422 a 563,obesidad,0 a 0.85,joven,si
+0 a 5,normal,normal,fino,<141,sobrepeso,0.85 a 1.64,joven,no
+0 a 5,prediabetes,riesgoso,fino,<141,obesidad,0 a 0.85,joven,si
+0 a 5,normal,normal,fino,<141,bajo peso,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,si
+0 a 5,normal,riesgoso,medio,141 a 281,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,medio,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+6 a 11,prediabetes,normal,fino,141 a 281,obesidad,0 a 0.85,joven,si
+0 a 5,prediabetes,normal,medio,141 a 281,obesidad,0 a 0.85,joven,si
+0 a 5,normal,normal,fino,<141,bajo peso,0 a 0.85,joven,no
+0 a 5,prediabetes,normal,fino,141 a 281,obesidad,0 a 0.85,joven,si
+0 a 5,normal,hipertension,medio,141 a 281,obesidad,0 a 0.85,joven,no
+0 a 5,normal,riesgoso,fino,141 a 281,obesidad,0 a 0.85,adulta,si
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,normal,0.85 a 1.64,joven,no
+0 a 5,prediabetes,normal,fino,<141,obesidad,0 a 0.85,joven,si
+>=12,prediabetes,riesgoso,fino,<141,obesidad,0 a 0.85,adulta,no
+0 a 5,prediabetes,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,bajo peso,0 a 0.85,joven,no
+6 a 11,normal,riesgoso,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,prediabetes,hipertension,fino,<141,obesidad,0 a 0.85,adulta,si
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+6 a 11,normal,normal,fino,<141,obesidad,0.85 a 1.64,joven,si
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,si
+0 a 5,prediabetes,normal,medio,<141,obesidad,>=1.64,joven,si
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,riesgoso,medio,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,medio,<141,obesidad,0 a 0.85,joven,si
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,si
+0 a 5,normal,normal,fino,141 a 281,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,anciana,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+>=12,prediabetes,normal,fino,<141,obesidad,0 a 0.85,joven,si
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,anciana,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+6 a 11,prediabetes,riesgoso,medio,141 a 281,obesidad,0.85 a 1.64,adulta,si
+6 a 11,normal,normal,fino,<141,sobrepeso,0 a 0.85,anciana,no
+6 a 11,normal,normal,fino,<141,normal,0 a 0.85,adulta,no
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+6 a 11,normal,normal,medio,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+6 a 11,normal,hipertension,fino,<141,normal,0.85 a 1.64,joven,no
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,medio,<141,obesidad,0 a 0.85,joven,no
+6 a 11,normal,normal,fino,<141,obesidad,0 a 0.85,joven,si
+6 a 11,prediabetes,normal,medio,<141,obesidad,0 a 0.85,joven,no
+0 a 5,prediabetes,riesgoso,medio,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,medio,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+6 a 11,normal,hipertension,fino,<141,sobrepeso,0 a 0.85,adulta,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,riesgoso,fino,<141,sobrepeso,0 a 0.85,adulta,no
+0 a 5,normal,riesgoso,medio,141 a 281,obesidad,0 a 0.85,joven,si
+6 a 11,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+6 a 11,normal,normal,medio,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,riesgoso,fino,<141,sobrepeso,0 a 0.85,anciana,no
+0 a 5,prediabetes,normal,fino,281 a 422,obesidad,0 a 0.85,joven,si
+0 a 5,normal,riesgoso,medio,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,riesgoso,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,prediabetes,normal,fino,<141,obesidad,0 a 0.85,joven,si
+0 a 5,normal,normal,medio,141 a 281,obesidad,0 a 0.85,joven,si
+0 a 5,normal,normal,medio,422 a 563,obesidad,0 a 0.85,joven,no
+0 a 5,prediabetes,normal,fino,141 a 281,obesidad,0.85 a 1.64,adulta,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+6 a 11,prediabetes,riesgoso,fino,<141,sobrepeso,0 a 0.85,anciana,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,hipertension,fino,<141,obesidad,0 a 0.85,adulta,no
+0 a 5,normal,normal,medio,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0.85 a 1.64,adulta,si
+0 a 5,normal,normal,fino,<141,bajo peso,0 a 0.85,joven,no
+6 a 11,prediabetes,normal,fino,<141,sobrepeso,0 a 0.85,anciana,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+6 a 11,prediabetes,normal,fino,141 a 281,sobrepeso,0 a 0.85,adulta,si
+6 a 11,prediabetes,normal,fino,141 a 281,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,hipertension,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+6 a 11,normal,normal,medio,<141,obesidad,0 a 0.85,adulta,si
+6 a 11,normal,normal,fino,<141,obesidad,0 a 0.85,adulta,no
+0 a 5,normal,normal,medio,<141,obesidad,0 a 0.85,joven,no
+6 a 11,normal,riesgoso,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,prediabetes,hipertension,fino,<141,obesidad,0 a 0.85,joven,si
+0 a 5,normal,normal,fino,141 a 281,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0.85 a 1.64,joven,no
+6 a 11,normal,normal,fino,<141,sobrepeso,0 a 0.85,anciana,no
+>=12,normal,normal,fino,<141,sobrepeso,0 a 0.85,adulta,si
+0 a 5,normal,normal,fino,141 a 281,normal,0 a 0.85,joven,no
+6 a 11,normal,normal,fino,<141,normal,0 a 0.85,adulta,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,prediabetes,normal,fino,<141,obesidad,0 a 0.85,joven,si
+6 a 11,prediabetes,riesgoso,medio,141 a 281,obesidad,0 a 0.85,adulta,si
+6 a 11,normal,riesgoso,fino,<141,obesidad,0 a 0.85,adulta,no
+>=12,normal,normal,fino,<141,obesidad,0 a 0.85,adulta,no
+6 a 11,normal,hipertension,fino,281 a 422,normal,0 a 0.85,adulta,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,riesgoso,fino,<141,obesidad,0 a 0.85,joven,no
+6 a 11,normal,normal,fino,<141,bajo peso,0 a 0.85,joven,no
+6 a 11,normal,normal,fino,<141,obesidad,0 a 0.85,adulta,si
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,bajo peso,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,141 a 281,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,medio,<141,obesidad,0.85 a 1.64,joven,no
+6 a 11,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0.85 a 1.64,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,si
+0 a 5,normal,hipertension,fino,<141,sobrepeso,0 a 0.85,adulta,no
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,anciana,no
+0 a 5,normal,riesgoso,medio,141 a 281,obesidad,0 a 0.85,joven,no
+0 a 5,normal,hipertension,medio,141 a 281,obesidad,0.85 a 1.64,joven,si
+6 a 11,normal,normal,medio,141 a 281,obesidad,0 a 0.85,adulta,si
+0 a 5,normal,normal,fino,141 a 281,obesidad,0 a 0.85,joven,si
+6 a 11,normal,riesgoso,fino,<141,obesidad,0 a 0.85,adulta,si
+0 a 5,normal,hipertension,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+6 a 11,prediabetes,hipertension,medio,141 a 281,obesidad,0 a 0.85,joven,si
+0 a 5,prediabetes,normal,fino,141 a 281,obesidad,0.85 a 1.64,adulta,si
+0 a 5,normal,normal,fino,141 a 281,obesidad,0 a 0.85,joven,no
+0 a 5,prediabetes,riesgoso,medio,<141,obesidad,0 a 0.85,adulta,no
+0 a 5,prediabetes,hipertension,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+6 a 11,normal,riesgoso,fino,<141,sobrepeso,0 a 0.85,anciana,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+6 a 11,normal,normal,fino,141 a 281,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,medio,<141,obesidad,0 a 0.85,joven,no
+6 a 11,normal,normal,fino,<141,sobrepeso,0 a 0.85,adulta,no
+6 a 11,normal,normal,medio,<141,obesidad,0 a 0.85,adulta,no
+6 a 11,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+6 a 11,normal,normal,fino,<141,obesidad,0 a 0.85,adulta,si
+0 a 5,prediabetes,normal,fino,141 a 281,obesidad,0 a 0.85,joven,si
+0 a 5,normal,normal,medio,<141,obesidad,0 a 0.85,joven,no
+6 a 11,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,riesgoso,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+6 a 11,normal,normal,fino,<141,obesidad,0 a 0.85,adulta,no
+0 a 5,prediabetes,normal,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,141 a 281,obesidad,0 a 0.85,joven,si
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,hipertension,fino,<141,normal,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,prediabetes,riesgoso,fino,281 a 422,obesidad,0.85 a 1.64,joven,no
+0 a 5,normal,normal,medio,<141,obesidad,0 a 0.85,joven,no
+6 a 11,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+0 a 5,normal,riesgoso,fino,<141,obesidad,0 a 0.85,joven,si
+6 a 11,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,prediabetes,normal,grueso,<141,obesidad,0 a 0.85,anciana,si
+0 a 5,prediabetes,hipertension,medio,<141,obesidad,0 a 0.85,joven,si
+6 a 11,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+>=12,normal,normal,fino,<141,sobrepeso,0 a 0.85,anciana,no
+6 a 11,normal,normal,fino,<141,obesidad,0 a 0.85,adulta,no
+6 a 11,normal,normal,fino,563 a 705,sobrepeso,0 a 0.85,adulta,si
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+6 a 11,prediabetes,normal,fino,<141,obesidad,0 a 0.85,adulta,si
+6 a 11,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+0 a 5,prediabetes,riesgoso,fino,141 a 281,obesidad,0.85 a 1.64,adulta,si
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+6 a 11,normal,riesgoso,medio,<141,obesidad,0.85 a 1.64,adulta,si
+0 a 5,normal,normal,medio,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,riesgoso,fino,<141,obesidad,0 a 0.85,adulta,si
+0 a 5,normal,normal,fino,<141,sobrepeso,>=1.64,joven,no
+6 a 11,normal,normal,medio,141 a 281,obesidad,0 a 0.85,joven,no
+0 a 5,prediabetes,riesgoso,fino,141 a 281,obesidad,0 a 0.85,joven,si
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,adulta,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,prediabetes,normal,fino,<141,obesidad,0 a 0.85,joven,si
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+0 a 5,normal,riesgoso,fino,<141,sobrepeso,0 a 0.85,joven,no
+6 a 11,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+0 a 5,normal,normal,medio,<141,sobrepeso,0 a 0.85,joven,no
+6 a 11,prediabetes,normal,fino,<141,obesidad,0 a 0.85,adulta,si
+0 a 5,prediabetes,normal,fino,<141,sobrepeso,0 a 0.85,joven,si
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,prediabetes,normal,medio,281 a 422,obesidad,0.85 a 1.64,joven,si
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+0 a 5,prediabetes,riesgoso,medio,141 a 281,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,141 a 281,normal,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,141 a 281,obesidad,0 a 0.85,joven,no
+0 a 5,prediabetes,normal,fino,141 a 281,obesidad,0 a 0.85,joven,si
+6 a 11,prediabetes,riesgoso,medio,281 a 422,obesidad,0 a 0.85,joven,si
+6 a 11,normal,riesgoso,fino,<141,obesidad,0.85 a 1.64,joven,no
+6 a 11,normal,normal,fino,141 a 281,obesidad,0 a 0.85,adulta,si
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+6 a 11,normal,hipertension,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+6 a 11,normal,riesgoso,fino,<141,sobrepeso,0.85 a 1.64,adulta,si
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,si
+0 a 5,normal,riesgoso,medio,141 a 281,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,normal,>=1.64,joven,no
+6 a 11,prediabetes,hipertension,fino,<141,obesidad,0.85 a 1.64,adulta,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,riesgoso,medio,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,riesgoso,fino,<141,obesidad,0 a 0.85,adulta,no
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+6 a 11,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,si
+0 a 5,normal,normal,medio,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,riesgoso,fino,141 a 281,sobrepeso,0 a 0.85,joven,no
+6 a 11,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+>=12,normal,normal,fino,<141,obesidad,0 a 0.85,joven,si
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,adulta,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+6 a 11,normal,normal,fino,<141,obesidad,0.85 a 1.64,joven,si
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+0 a 5,normal,riesgoso,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+6 a 11,prediabetes,riesgoso,fino,<141,sobrepeso,0 a 0.85,adulta,si
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,141 a 281,sobrepeso,0 a 0.85,joven,no
+0 a 5,prediabetes,normal,medio,422 a 563,obesidad,0 a 0.85,joven,no
+0 a 5,prediabetes,normal,fino,141 a 281,normal,0 a 0.85,joven,si
+0 a 5,prediabetes,normal,medio,141 a 281,obesidad,0 a 0.85,joven,si
+6 a 11,normal,riesgoso,medio,<141,sobrepeso,0 a 0.85,adulta,si
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,medio,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,prediabetes,normal,fino,422 a 563,obesidad,0 a 0.85,joven,si
+0 a 5,normal,normal,medio,<141,normal,0 a 0.85,joven,no
+0 a 5,normal,riesgoso,medio,141 a 281,obesidad,0.85 a 1.64,adulta,no
+6 a 11,normal,hipertension,fino,<141,obesidad,0 a 0.85,adulta,no
+0 a 5,normal,riesgoso,fino,<141,obesidad,0.85 a 1.64,joven,si
+6 a 11,prediabetes,riesgoso,fino,<141,sobrepeso,0 a 0.85,adulta,no
+0 a 5,prediabetes,normal,medio,<141,obesidad,0.85 a 1.64,joven,si
+6 a 11,prediabetes,hipertension,medio,141 a 281,obesidad,0 a 0.85,adulta,si
+6 a 11,prediabetes,riesgoso,medio,<141,obesidad,0 a 0.85,joven,si
+6 a 11,normal,normal,medio,<141,obesidad,0 a 0.85,joven,si
+0 a 5,normal,riesgoso,medio,<141,obesidad,0 a 0.85,joven,no
+0 a 5,prediabetes,riesgoso,fino,<141,obesidad,0 a 0.85,anciana,si
+6 a 11,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,si
+6 a 11,normal,normal,fino,141 a 281,obesidad,0 a 0.85,adulta,no
+6 a 11,prediabetes,normal,fino,<141,obesidad,0 a 0.85,adulta,no
+6 a 11,prediabetes,normal,fino,141 a 281,obesidad,0 a 0.85,adulta,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+6 a 11,normal,hipertension,fino,<141,obesidad,0 a 0.85,adulta,no
+0 a 5,normal,hipertension,medio,141 a 281,obesidad,0.85 a 1.64,joven,no
+6 a 11,normal,riesgoso,fino,<141,obesidad,0 a 0.85,anciana,no
+6 a 11,prediabetes,normal,fino,<141,obesidad,0 a 0.85,joven,si
+6 a 11,prediabetes,riesgoso,fino,<141,normal,0 a 0.85,adulta,si
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,si
+0 a 5,normal,normal,fino,141 a 281,normal,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+0 a 5,prediabetes,normal,medio,<141,obesidad,0 a 0.85,joven,si
+0 a 5,normal,normal,medio,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,riesgoso,fino,<141,obesidad,0 a 0.85,joven,si
+0 a 5,normal,riesgoso,fino,<141,bajo peso,0 a 0.85,anciana,no
+0 a 5,normal,normal,fino,141 a 281,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,prediabetes,normal,fino,141 a 281,normal,0 a 0.85,joven,no
+0 a 5,prediabetes,riesgoso,medio,141 a 281,obesidad,0 a 0.85,adulta,si
+6 a 11,normal,riesgoso,fino,<141,normal,0.85 a 1.64,joven,no
+>=12,prediabetes,hipertension,fino,<141,obesidad,0 a 0.85,adulta,si
+0 a 5,normal,normal,fino,<141,obesidad,0.85 a 1.64,joven,no
+6 a 11,normal,normal,medio,<141,obesidad,0 a 0.85,adulta,si
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+6 a 11,prediabetes,hipertension,fino,422 a 563,obesidad,0 a 0.85,adulta,si
+0 a 5,prediabetes,normal,fino,<141,sobrepeso,0 a 0.85,joven,si
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,riesgoso,fino,141 a 281,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0.85 a 1.64,joven,no
+0 a 5,normal,normal,fino,141 a 281,obesidad,0 a 0.85,joven,no
+6 a 11,normal,normal,fino,<141,sobrepeso,0 a 0.85,adulta,si
+0 a 5,prediabetes,riesgoso,fino,<141,obesidad,0.85 a 1.64,adulta,si
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,adulta,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+6 a 11,normal,riesgoso,medio,<141,obesidad,0 a 0.85,joven,no
+6 a 11,normal,normal,fino,<141,bajo peso,0 a 0.85,joven,si
+0 a 5,normal,normal,fino,281 a 422,obesidad,0 a 0.85,joven,no
+6 a 11,prediabetes,normal,fino,<141,obesidad,0 a 0.85,adulta,si
+0 a 5,normal,normal,fino,141 a 281,obesidad,0 a 0.85,joven,si
+0 a 5,prediabetes,normal,fino,281 a 422,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+6 a 11,normal,normal,medio,<141,obesidad,0 a 0.85,joven,si
+0 a 5,normal,normal,fino,281 a 422,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+6 a 11,prediabetes,normal,fino,281 a 422,obesidad,0 a 0.85,joven,si
+0 a 5,prediabetes,normal,medio,141 a 281,obesidad,0.85 a 1.64,joven,si
+6 a 11,normal,normal,fino,<141,normal,0 a 0.85,adulta,no
+0 a 5,normal,normal,medio,141 a 281,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,adulta,si
+0 a 5,normal,riesgoso,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,medio,141 a 281,obesidad,0 a 0.85,joven,no
+0 a 5,prediabetes,normal,fino,<141,sobrepeso,0 a 0.85,adulta,si
+0 a 5,normal,riesgoso,fino,<141,obesidad,0 a 0.85,adulta,no
+0 a 5,normal,hipertension,fino,<141,obesidad,0 a 0.85,adulta,no
+0 a 5,normal,normal,medio,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,141 a 281,obesidad,0 a 0.85,joven,no
+0 a 5,prediabetes,riesgoso,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,prediabetes,riesgoso,fino,<141,normal,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,si
+6 a 11,normal,riesgoso,fino,<141,sobrepeso,0 a 0.85,joven,si
+0 a 5,prediabetes,riesgoso,medio,<141,obesidad,0 a 0.85,joven,si
+0 a 5,normal,normal,fino,141 a 281,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,normal,0 a 0.85,adulta,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,riesgoso,fino,<141,sobrepeso,0 a 0.85,joven,no
+6 a 11,normal,normal,fino,<141,obesidad,0 a 0.85,adulta,no
+0 a 5,normal,normal,fino,141 a 281,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,adulta,si
+6 a 11,normal,riesgoso,medio,141 a 281,obesidad,0 a 0.85,adulta,si
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+6 a 11,prediabetes,hipertension,fino,<141,obesidad,0 a 0.85,adulta,si
+>=12,prediabetes,riesgoso,medio,<141,obesidad,0.85 a 1.64,joven,no
+>=12,normal,riesgoso,fino,<141,obesidad,0 a 0.85,adulta,no
+0 a 5,prediabetes,hipertension,medio,<141,obesidad,0 a 0.85,joven,si
+0 a 5,normal,normal,medio,<141,obesidad,0.85 a 1.64,joven,no
+0 a 5,prediabetes,normal,fino,141 a 281,obesidad,0 a 0.85,joven,si
+6 a 11,prediabetes,normal,fino,<141,normal,0 a 0.85,adulta,si
+0 a 5,normal,normal,fino,<141,obesidad,0.85 a 1.64,joven,si
+0 a 5,normal,normal,medio,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,prediabetes,riesgoso,medio,422 a 563,obesidad,0 a 0.85,joven,si
+6 a 11,prediabetes,normal,fino,<141,obesidad,0 a 0.85,adulta,si
+0 a 5,normal,riesgoso,medio,<141,obesidad,0.85 a 1.64,joven,si
+6 a 11,normal,hipertension,medio,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,adulta,si
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+6 a 11,prediabetes,hipertension,fino,<141,obesidad,0 a 0.85,anciana,si
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+6 a 11,prediabetes,normal,fino,<141,obesidad,0 a 0.85,adulta,si
+6 a 11,normal,normal,fino,<141,normal,0 a 0.85,joven,no
+6 a 11,normal,normal,medio,141 a 281,obesidad,0 a 0.85,anciana,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,sobrepeso,0 a 0.85,joven,no
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,adulta,si
+0 a 5,normal,normal,fino,<141,obesidad,0 a 0.85,joven,no
