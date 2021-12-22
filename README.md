@@ -8,6 +8,11 @@
 * Pandas
 * Matplotlib
 
+## Extra Requierements 
+### For Graphical User Interface
+
+* tkinter
+
 ## Docs Requirements
 
 * Jupyter Notebook
