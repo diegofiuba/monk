@@ -24,3 +24,7 @@
 1) Abrir la consola de comandos
 2) Cambiar el directorio de trabajo actual por el directorio donde se instalaron los archivos
 3) Escribir python3 monk.py
+
+## Application screenshot
+
+![screenshot](https://github.com/diegotournet/monk/screenshots/screenshot.jpg?raw=true)
