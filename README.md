@@ -27,4 +27,4 @@
 
 ## Application screenshot
 
-![screenshot](https://github.com/diegotournet/monk/screenshots/screenshot.jpg?raw=true)
+![screenshot](https://github.com/diegofiuba/monk/blob/main/screenshots/screenshot.jpg?raw=true)
