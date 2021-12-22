@@ -24,6 +24,17 @@ class Data():
         return self.df
     """
     
+    def scenario_name(self):
+        return self.el_escenario
+    
+    def attributes_names(self):
+        return self.dataframe.columns.tolist()
+    
+    def attribute(self,attribute_name):
+        return self.dic_atributos[attribute_name]
+    
+    ###
+    
     def scenario(self):
         print(self.el_escenario)
     
