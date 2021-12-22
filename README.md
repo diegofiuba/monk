@@ -2,6 +2,10 @@
 
 > Programa para calcular y gráficar probabilidades de los atributos de un set de datos estructurado en filas (observaciones) y columnas (atributos)
 
+Captura de pantalla:
+
+![screenshot](https://github.com/diegofiuba/monk/blob/main/screenshots/screenshot.jpg?raw=true)
+
 ## Basic Requirements
 
 * Python 3
@@ -24,7 +28,3 @@
 1) Abrir la consola de comandos
 2) Cambiar el directorio de trabajo actual por el directorio donde se instalaron los archivos
 3) Escribir python3 monk.py
-
-## Application screenshot
-
-![screenshot](https://github.com/diegofiuba/monk/blob/main/screenshots/screenshot.jpg?raw=true)
