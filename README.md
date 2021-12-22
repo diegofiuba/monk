@@ -9,10 +9,18 @@
 * Matplotlib
 
 ## Extra Requierements 
-### For Graphical User Interface
+#### For Graphical User Interface
 
 * tkinter
 
 ## Docs Requirements
 
 * Jupyter Notebook
+
+## Run application
+
+ Para usar la aplicación con interfaz gráfica hacer:
+
+1) Abrir la consola de comandos
+2) Cambiar el directorio de trabajo actual por el directorio donde se instalaron los archivos
+3) Escribir python3 monk.py
