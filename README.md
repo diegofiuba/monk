@@ -19,7 +19,7 @@
 
 ## Run application
 
- Para usar la aplicación con interfaz gráfica hacer:
+ Para usar la aplicación con interfaz gráfica:
 
 1) Abrir la consola de comandos
 2) Cambiar el directorio de trabajo actual por el directorio donde se instalaron los archivos
