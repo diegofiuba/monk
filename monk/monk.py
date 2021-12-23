@@ -77,6 +77,7 @@ class Aplicacion(tk.Frame):
       self.listbox.delete(0, tk.END)
       self.figura.clf()
       self.canvas.draw()
+      self.canvas.get_tk_widget().config(cursor="arrow")
       self.botonGuardarArchivo.config(state=tk.DISABLED)
       self.botonEditarHallazgo.config(state=tk.DISABLED)
       self.mostrarAtributos(self.escenario,self.listbox) ###########
@@ -113,6 +114,7 @@ class Aplicacion(tk.Frame):
       grafico.axes.get_xaxis().set_visible(False)  
     
       self.canvas.draw()
+      self.canvas.get_tk_widget().config(cursor="hand2")
       self.canvas.get_tk_widget().pack(side=tk.LEFT,fill=tk.BOTH,expand=True)
 
       #binding para detectar clic en el grafico
