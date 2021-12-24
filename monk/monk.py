@@ -11,8 +11,8 @@ class Aplicacion(tk.Frame):
       tk.Frame.__init__(self,ventana_ppal)
       self.ventana_ppal=ventana_ppal
       self.ventana_ppal.title("Monk")
-      self.ventana_ppal.wm_attributes('-zoomed', True)
-      self.ventana_ppal.resizable(False, False)
+      #self.ventana_ppal.wm_attributes('-zoomed', True)
+      #self.ventana_ppal.resizable(False, False)
 
       self.construir_barra_en(ventana_ppal)
       self.construir_panel_en(ventana_ppal)
@@ -47,13 +47,20 @@ class Aplicacion(tk.Frame):
    def construir_lista(self,subpanel):
       label=tk.Label(subpanel,text='Atributos')
       label.pack(side=tk.TOP)
-      # Crear una barra de deslizamiento con orientación vertical.
-      scrollbar = tk.Scrollbar(subpanel)
-      scrollbar.pack(side="right", fill="y")
-      # Vincularla con la lista.
-      self.listbox = tk.Listbox(subpanel,selectmode='browse',yscrollcommand=scrollbar.set)
+      # Crear barras de deslizamiento
+      scrollbar_horizontal = tk.Scrollbar(subpanel, orient = 'horizontal')
+      scrollbar_horizontal.pack(side="bottom", fill="x")
+      scrollbar_vertical = tk.Scrollbar(subpanel, orient = 'vertical')
+      scrollbar_vertical.pack(side="right", fill="y")   
+      
+      
+      # Vincularlas con la lista.
+      self.listbox = tk.Listbox(subpanel,selectmode='browse',xscrollcommand=scrollbar_horizontal.set,yscrollcommand=scrollbar_vertical.set)
       self.listbox.pack(side=tk.LEFT,fill=tk.BOTH,expand=True)
       self.listbox.bind('<<ListboxSelect>>', self.seleccionar_atributo )      
+      
+      scrollbar_horizontal.config(command=self.listbox.xview)   
+      scrollbar_vertical.config(command=self.listbox.yview)  
          
    def construir_figura(self,subpanel):    
       label=tk.Label(subpanel,text='Gráfico')
