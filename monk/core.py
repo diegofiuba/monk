@@ -4,10 +4,6 @@ import matplotlib.pyplot as plt
 class Data():    
             
     def __init__(self,df,scenario='a priori'):
-        #r = random.random()
-        #b = random.random()
-        #g = random.random()
-        #self.color = (r, g, b)
         self.el_escenario=scenario
         self.dataframe=df
         casosTotales=len(self.dataframe.index)
@@ -16,13 +12,6 @@ class Data():
            #ocurrencias=round(df[column].value_counts()/casosTotales,2)
            ocurrencias=( (self.dataframe[column].value_counts()/casosTotales)*100 ).round().astype(int)
            self.dic_atributos[column]=ocurrencias
-    """
-    def see(self,number):
-        return self.df.head(number)
-    
-    def see_all(self):
-        return self.df
-    """
     
     def scenario_name(self):
         return self.el_escenario
@@ -61,8 +50,6 @@ class Data():
         
     def plot_proba_func_attributes(self):
         for nombre_atributo in self.dic_atributos:
-            #print(atributos[atributo])
-            #self.__graficar_atributo(self.dic_atributos[atributo])
             self.plot_proba_func(nombre_atributo)            
     
     def export_proba_func(self,attribute_name,path):
@@ -80,7 +67,6 @@ class Data():
         comparacion.index.name=attribute_name
         for datos in data_list:
             comparacion[datos.el_escenario]=datos.dic_atributos[attribute_name]
-        #return comparacion
         print(comparacion)           
 
     def plot_compare(self,data_list,attribute_name):
@@ -92,7 +78,7 @@ class Data():
             comparacion[datos.el_escenario]=datos.dic_atributos[attribute_name]
             escenarios=escenarios+' vs. '+datos.el_escenario
             
-        grafico=comparacion.plot(kind='bar',table=True,title=escenarios)#,suptitle=attribute_name)
+        grafico=comparacion.plot(kind='bar',table=True,title=escenarios)
         plt.suptitle(attribute_name)
         grafico.axes.get_xaxis().set_visible(False)
 		#plt.show()
