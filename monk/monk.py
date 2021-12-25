@@ -11,8 +11,6 @@ class Aplicacion(tk.Frame):
       tk.Frame.__init__(self,ventana_ppal)
       self.ventana_ppal=ventana_ppal
       self.ventana_ppal.title("Monk")
-      #self.ventana_ppal.wm_attributes('-zoomed', True)
-      #self.ventana_ppal.resizable(False, False)
 
       self.construir_barra_en(ventana_ppal)
       self.construir_panel_en(ventana_ppal)
@@ -66,7 +64,6 @@ class Aplicacion(tk.Frame):
       label=tk.Label(subpanel,text='Gráfico')
       label.pack(side=tk.TOP)
       self.figura = Figure()
-      #ax = self.figura.add_subplot(111)
       self.canvas=FigureCanvasTkAgg(self.figura,subpanel)
       #self.canvas.get_tk_widget().pack(side=tk.RIGHT,fill=tk.BOTH)      
       self.canvas.get_tk_widget().pack(side=tk.LEFT,fill=tk.BOTH,expand=True)    
@@ -181,7 +178,6 @@ class Aplicacion(tk.Frame):
       self.edicion.destroy()
       
    def cancelar(self):
-      pass
       self.edicion.destroy()
    
    def consultar_ayuda(self):
