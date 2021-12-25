@@ -1,10 +1,14 @@
-import tkinter as tk 
+print("loading pandas (2 pending)")
+import pandas as pd
+print("loading matplotlib (1 pending)")
 from matplotlib.figure import Figure
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
+print("loading tkinter")
+import tkinter as tk 
 from tkinter import filedialog
 from tkinter import messagebox
-import pandas as pd
 import core
+print("opening monk")
 
 class Aplicacion(tk.Frame):
    def __init__(self, ventana_ppal):
