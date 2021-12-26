@@ -7,6 +7,7 @@ print("loading tkinter")
 import tkinter as tk 
 from tkinter import filedialog
 from tkinter import messagebox
+from tkinter.simpledialog import askinteger
 import core
 print("opening monk")
 
@@ -15,9 +16,14 @@ class Aplicacion(tk.Frame):
       tk.Frame.__init__(self,ventana_ppal)
       self.ventana_ppal=ventana_ppal
       self.ventana_ppal.title("Monk")
+      self.precision=2
+      self.texto = tk.StringVar(ventana_ppal,f"Precisión:{self.precision}")
+      #self.texto.set(f"Precisión:2")#{self.precision}")
 
       self.construir_barra_en(ventana_ppal)
       self.construir_panel_en(ventana_ppal)
+      
+      self.construir_barra_inferior_en(ventana_ppal)
 
    def construir_barra_en(self,ventana_ppal):
       barra=tk.Frame(ventana_ppal)
@@ -29,6 +35,8 @@ class Aplicacion(tk.Frame):
       self.botonGuardarArchivo.pack(side=tk.LEFT)
       self.botonEditarHallazgo = tk.Button(barra, text="Editar hallazgo", command=self.editar_hallazgo,state= tk.DISABLED)
       self.botonEditarHallazgo.pack(side=tk.LEFT)
+      self.botonEditarPrecision = tk.Button(barra, text="Editar precisión", command=self.editar_precision,state= tk.DISABLED)
+      self.botonEditarPrecision.pack(side=tk.LEFT)
       self.botonConsultarAyuda = tk.Button(barra, text="Ayuda", command=self.consultar_ayuda,state= tk.DISABLED)
       self.botonConsultarAyuda.pack(side=tk.LEFT)
 
@@ -45,6 +53,13 @@ class Aplicacion(tk.Frame):
       #subpanel2.pack(side=tk.RIGHT,fill=tk.BOTH)
       subpanel2.pack(side=tk.LEFT,fill=tk.BOTH,expand=True)
       self.construir_figura(subpanel2)
+         
+   def construir_barra_inferior_en(self,ventana_ppal):
+      #self.texto = tk.StringVar()
+      #self.texto.set(f"Precisión:2")#{self.precision}")
+      label=tk.Label(ventana_ppal)#,text=f"Precisión:{self.precision}")
+      label.config(textvariable=self.texto)
+      label.pack()      
          
    def construir_lista(self,subpanel):
       label=tk.Label(subpanel,text='Atributos')
@@ -88,6 +103,7 @@ class Aplicacion(tk.Frame):
       self.canvas.get_tk_widget().config(cursor="arrow")
       self.botonGuardarArchivo.config(state=tk.DISABLED)
       self.botonEditarHallazgo.config(state=tk.DISABLED)
+      self.botonEditarPrecision.config(state=tk.DISABLED)
       self.mostrarAtributos(self.escenario,self.listbox) ###########
 
    def guardar(self):    
@@ -103,6 +119,7 @@ class Aplicacion(tk.Frame):
       self.dibujar(self.escenario,listbox,self.color_escenario) ########### 
       self.botonGuardarArchivo.config(state=tk.NORMAL)
       self.botonEditarHallazgo.config(state=tk.NORMAL)
+      self.botonEditarPrecision.config(state=tk.NORMAL)
       
    def dibujar(self,datos,listbox,color_grafico):  
       #obtengo posicion del item seleccionado de la lista
@@ -112,12 +129,13 @@ class Aplicacion(tk.Frame):
       nombre_atributo = listbox.get(seleccion)
    
       atributo = datos.attribute(nombre_atributo)
-
+      atributo1=atributo.round(self.precision)
+      
       self.figura.clf()
       
       ax = self.figura.add_subplot(111)
     
-      grafico=atributo.plot(kind='bar',table=True,ax=ax,title=datos.scenario_name(),color=color_grafico)
+      grafico=atributo1.plot(kind='bar',table=True,ax=ax,title=datos.scenario_name(),color=color_grafico)
       self.figura.suptitle(nombre_atributo)
       grafico.axes.get_xaxis().set_visible(False)  
     
@@ -187,6 +205,11 @@ class Aplicacion(tk.Frame):
    def consultar_ayuda(self):
       pass
       #TODO
+      
+   def editar_precision(self):
+      self.precision = abs(askinteger("Editar precisión", "Ingrese la cantidad de decimales:"))
+      self.texto.set(f"Precisión:{self.precision}")
+      self.dibujar(self.escenario,self.listbox,self.color_escenario) ########### 
       
 ventana_ppal=tk.Tk()
 aplicacion=Aplicacion(ventana_ppal)
