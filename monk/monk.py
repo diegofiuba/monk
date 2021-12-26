@@ -20,14 +20,14 @@ class Aplicacion(tk.Frame):
       self.texto = tk.StringVar(ventana_ppal,f"Precisión:{self.precision}")
       #self.texto.set(f"Precisión:2")#{self.precision}")
 
-      self.construir_barra_en(ventana_ppal)
+      self.construir_barra_superior_en(ventana_ppal)
       self.construir_panel_en(ventana_ppal)
       
       self.construir_barra_inferior_en(ventana_ppal)
 
-   def construir_barra_en(self,ventana_ppal):
+   def construir_barra_superior_en(self,ventana_ppal):
       barra=tk.Frame(ventana_ppal)
-      barra.pack(fill=tk.BOTH)
+      barra.pack(side=tk.TOP, fill=tk.X)#fill=tk.BOTH)
 
       botonAbrirArchivo = tk.Button(barra, text="Abrir archivo", command=self.abrir)
       botonAbrirArchivo.pack(side=tk.LEFT)
@@ -43,7 +43,7 @@ class Aplicacion(tk.Frame):
    def construir_panel_en(self,ventana_ppal):
       panel=tk.Frame(ventana_ppal)
       #panel.pack()
-      panel.pack(fill=tk.BOTH,expand=True)
+      panel.pack(side=tk.TOP, fill=tk.BOTH, expand=True)#fill=tk.BOTH)#,expand=True)
       
       subpanel1=tk.Frame(panel)
       subpanel1.pack(side=tk.LEFT,fill=tk.BOTH,expand=True)
@@ -59,7 +59,7 @@ class Aplicacion(tk.Frame):
       #self.texto.set(f"Precisión:2")#{self.precision}")
       label=tk.Label(ventana_ppal)#,text=f"Precisión:{self.precision}")
       label.config(textvariable=self.texto)
-      label.pack()      
+      label.pack(side=tk.BOTTOM, fill=tk.X)#)side=tk.BOTTOM,fill=tk.BOTH)
          
    def construir_lista(self,subpanel):
       label=tk.Label(subpanel,text='Atributos')
