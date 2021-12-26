@@ -9,8 +9,9 @@ class Data():
         casosTotales=len(self.dataframe.index)
         self.dic_atributos={}
         for column in self.dataframe.columns:
+           ocurrencias=df[column].value_counts()/casosTotales
            #ocurrencias=round(df[column].value_counts()/casosTotales,2)
-           ocurrencias=( (self.dataframe[column].value_counts()/casosTotales)*100 ).round().astype(int)
+           #ocurrencias=( (self.dataframe[column].value_counts()/casosTotales)*100 ).round().astype(int)
            self.dic_atributos[column]=ocurrencias
     
     def scenario_name(self):
