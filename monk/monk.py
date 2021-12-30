@@ -103,15 +103,21 @@ class Aplicacion(tk.Frame):
          self.figura.clf()
          self.canvas.draw()
          self.canvas.get_tk_widget().config(cursor="arrow")
-         self.botonGuardarArchivo.config(state=tk.DISABLED)
-         self.botonEditarHallazgo.config(state=tk.DISABLED)
-         self.botonEditarPrecision.config(state=tk.DISABLED)
+         #self.botonGuardarArchivo.config(state=tk.DISABLED)
+         #self.botonEditarHallazgo.config(state=tk.DISABLED)
+         #self.botonEditarPrecision.config(state=tk.DISABLED)
+         self.configurar_botones(tk.DISABLED)
          self.mostrarAtributos(self.escenario,self.listbox) ###########
 
    def guardar(self):    
       ruta = filedialog.asksaveasfilename(parent=ventana_ppal,title='Guardar gráfico',filetypes=[('Imagen', '.jpg')])
       if ruta:
          self.figura.savefig(ruta)
+
+   def configurar_botones(self,estado):
+      self.botonGuardarArchivo.config(state=estado)
+      self.botonEditarHallazgo.config(state=estado)
+      self.botonEditarPrecision.config(state=estado)  
 
    def mostrarAtributos(self,datos,listbox):   
       listbox.config(state=tk.NORMAL)
@@ -122,9 +128,10 @@ class Aplicacion(tk.Frame):
    def seleccionar_atributo(self,evento):
       listbox = evento.widget 
       self.dibujar(self.escenario,listbox,self.color_escenario) ########### 
-      self.botonGuardarArchivo.config(state=tk.NORMAL)
-      self.botonEditarHallazgo.config(state=tk.NORMAL)
-      self.botonEditarPrecision.config(state=tk.NORMAL)
+      #self.botonGuardarArchivo.config(state=tk.NORMAL)
+      #self.botonEditarHallazgo.config(state=tk.NORMAL)
+      #self.botonEditarPrecision.config(state=tk.NORMAL)
+      self.configurar_botones(tk.NORMAL)
       
    def dibujar(self,datos,listbox,color_grafico):  
       #obtengo posicion del item seleccionado de la lista
@@ -216,7 +223,7 @@ class Aplicacion(tk.Frame):
       
    def editar_precision(self):
       resultado = askinteger("Editar precisión", "Ingrese la cantidad de decimales:")
-      if resultado>=0:
+      if resultado!=None and resultado>=0:
          self.precision = resultado#abs(resultado)
          self.texto.set(f"Precisión:{self.precision}")
          self.dibujar(self.escenario,self.listbox,self.color_escenario) ########### 
