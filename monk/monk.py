@@ -8,10 +8,33 @@ import tkinter as tk
 from tkinter import filedialog
 from tkinter import messagebox
 from tkinter.simpledialog import askinteger
+import webbrowser
 import core
 print("opening monk")
 
 
+class CartelAcercaDe(tk.simpledialog.Dialog):
+   def __init__(self, ancestro):
+      tk.simpledialog.Dialog.__init__(self,ancestro)
+      
+   def body(self, ancestro):   
+      self.title("Acerca de Monk")
+      version = tk.Label(ancestro,text="Versión 1.0")
+      version.pack()
+
+      descripcion = tk.Label(ancestro,text="Monk es una aplicación que grafica las probabilidades a partir de archivos CSV")
+      descripcion.pack()
+
+      mas_info = tk.Label(ancestro,text="Para más información dirigirse a:")
+      mas_info.pack()
+      
+      url = "https://github.com/diegofiuba/monk"                               
+      link = tk.Label(ancestro, text=url, fg="blue", cursor="hand2")
+      link.pack()
+      link.bind("<Button-1>", lambda e: self.abrir_enlace(url) )
+
+   def abrir_enlace(self,url):
+      webbrowser.open_new(url)
 
 class Aplicacion(tk.Frame):
    def __init__(self, ventana_ppal):
@@ -38,7 +61,7 @@ class Aplicacion(tk.Frame):
       self.botonEditarHallazgo.pack(side=tk.LEFT)
       self.botonEditarPrecision = tk.Button(barra, text="Editar precisión", command=self.editar_precision,state= tk.DISABLED)
       self.botonEditarPrecision.pack(side=tk.LEFT)
-      self.botonConsultarAyuda = tk.Button(barra, text="Ayuda", command=self.consultar_ayuda,state= tk.DISABLED)
+      self.botonConsultarAyuda = tk.Button(barra, text="Ayuda", command=self.consultar_ayuda,state= tk.NORMAL)
       self.botonConsultarAyuda.pack(side=tk.LEFT)
 
    def construir_panel_en(self,ventana_ppal):
@@ -213,8 +236,7 @@ class Aplicacion(tk.Frame):
       self.edicion.destroy()
    
    def consultar_ayuda(self):
-      pass
-      #TODO
+      CartelAcercaDe(self.ventana_ppal)
       
    def editar_precision(self):
       resultado = askinteger("Editar precisión", "Ingrese la cantidad de decimales:")
