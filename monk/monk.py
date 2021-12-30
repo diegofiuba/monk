@@ -11,6 +11,8 @@ from tkinter.simpledialog import askinteger
 import core
 print("opening monk")
 
+
+
 class Aplicacion(tk.Frame):
    def __init__(self, ventana_ppal):
       tk.Frame.__init__(self,ventana_ppal)
@@ -21,9 +23,8 @@ class Aplicacion(tk.Frame):
       #self.texto.set(f"Precisión:2")#{self.precision}")
 
       self.construir_barra_superior_en(ventana_ppal)
+      self.construir_barra_inferior_en(ventana_ppal) 
       self.construir_panel_en(ventana_ppal)
-      
-      self.construir_barra_inferior_en(ventana_ppal)
 
    def construir_barra_superior_en(self,ventana_ppal):
       barra=tk.Frame(ventana_ppal)
