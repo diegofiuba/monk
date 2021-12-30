@@ -73,7 +73,7 @@ class Aplicacion(tk.Frame):
       
       
       # Vincularlas con la lista.
-      self.listbox = tk.Listbox(subpanel,selectmode='browse',xscrollcommand=scrollbar_horizontal.set,yscrollcommand=scrollbar_vertical.set)
+      self.listbox = tk.Listbox(subpanel,selectmode='browse',xscrollcommand=scrollbar_horizontal.set,yscrollcommand=scrollbar_vertical.set,state= tk.DISABLED)
       self.listbox.pack(side=tk.LEFT,fill=tk.BOTH,expand=True)
       self.listbox.bind('<<ListboxSelect>>', self.seleccionar_atributo )      
       
@@ -91,29 +91,33 @@ class Aplicacion(tk.Frame):
    def abrir(self):
       messagebox.showinfo("Información","Se sugiere usar un archivo con atributos discretizados para un buen funcionamiento")
       ruta = filedialog.askopenfilename(parent=ventana_ppal,title='Abrir archivo csv',filetypes=[('Archivo separado por comas', '.csv')],multiple=False)
-      df=pd.read_csv(ruta)
-      self.ventana_ppal.title("Monk - "+ruta)
-      self.apriori=core.Data(df) ###########
-      self.escenario=self.apriori
-      self.color_apriori='tab:green'
-      self.color_aposteriori='tab:red'
-      self.color_escenario=self.color_apriori
-      self.listbox.delete(0, tk.END)
-      self.figura.clf()
-      self.canvas.draw()
-      self.canvas.get_tk_widget().config(cursor="arrow")
-      self.botonGuardarArchivo.config(state=tk.DISABLED)
-      self.botonEditarHallazgo.config(state=tk.DISABLED)
-      self.botonEditarPrecision.config(state=tk.DISABLED)
-      self.mostrarAtributos(self.escenario,self.listbox) ###########
+      if ruta:
+         df=pd.read_csv(ruta)
+         self.ventana_ppal.title("Monk - "+ruta)
+         self.apriori=core.Data(df) ###########
+         self.escenario=self.apriori
+         self.color_apriori='tab:green'
+         self.color_aposteriori='tab:red'
+         self.color_escenario=self.color_apriori
+         self.listbox.delete(0, tk.END)
+         self.figura.clf()
+         self.canvas.draw()
+         self.canvas.get_tk_widget().config(cursor="arrow")
+         self.botonGuardarArchivo.config(state=tk.DISABLED)
+         self.botonEditarHallazgo.config(state=tk.DISABLED)
+         self.botonEditarPrecision.config(state=tk.DISABLED)
+         self.mostrarAtributos(self.escenario,self.listbox) ###########
 
    def guardar(self):    
       ruta = filedialog.asksaveasfilename(parent=ventana_ppal,title='Guardar gráfico',filetypes=[('Imagen', '.jpg')])
-      self.figura.savefig(ruta)
+      if ruta:
+         self.figura.savefig(ruta)
 
    def mostrarAtributos(self,datos,listbox):   
+      listbox.config(state=tk.NORMAL)
       for attribute_name in datos.attributes_names():
          listbox.insert(tk.END, attribute_name)  
+
       
    def seleccionar_atributo(self,evento):
       listbox = evento.widget 
@@ -151,44 +155,47 @@ class Aplicacion(tk.Frame):
       self.editar_hallazgo()
       
    def editar_hallazgo(self):
-      #obtengo posicion del item seleccionado de la lista
-      seleccion = self.listbox.curselection()
+      #if self.listbox['state']==tk.NORMAL:
+      if self.listbox.curselection():
+
+         #obtengo posicion del item seleccionado de la lista
+         seleccion = self.listbox.curselection()
       
-      #obtengo el texto correspondiente al elemento seleccionado en la lista 
-      nombre_atributo = self.listbox.get(seleccion)
+         #obtengo el texto correspondiente al elemento seleccionado en la lista 
+         nombre_atributo = self.listbox.get(seleccion)
 
 
-      atributo = self.apriori.attribute(nombre_atributo) #*********#
+         atributo = self.apriori.attribute(nombre_atributo) #*********#
 
-      self.edicion = tk.Toplevel()
-      self.edicion.wm_title("Editar hallazgo")
+         self.edicion = tk.Toplevel()
+         self.edicion.wm_title("Editar hallazgo")
       
-      label=tk.Label(self.edicion, text="               Seleccione una opción:              ")
-      label.pack()
+         label=tk.Label(self.edicion, text="               Seleccione una opción:              ")
+         label.pack()
 
-      opcion_elegida=tk.StringVar(value='a priori') 
+         opcion_elegida=tk.StringVar(value='a priori') 
       
-      opcion=tk.Radiobutton(self.edicion, text='a priori', variable=opcion_elegida, value='a priori')
-      opcion.pack()
-      
-      for valor in atributo.index.tolist():
-         texto = nombre_atributo+'='+valor
-         opcion=tk.Radiobutton(self.edicion, text=texto, variable=opcion_elegida, value=valor)
+         opcion=tk.Radiobutton(self.edicion, text='a priori', variable=opcion_elegida, value='a priori')
          opcion.pack()
+      
+         for valor in atributo.index.tolist():
+            texto = nombre_atributo+'='+valor
+            opcion=tk.Radiobutton(self.edicion, text=texto, variable=opcion_elegida, value=valor)
+            opcion.pack()
 
       
-      barra=tk.Frame(self.edicion)
-      barra.pack()
+         barra=tk.Frame(self.edicion)
+         barra.pack()
 
-      botonAceptar = tk.Button(barra, text="Aceptar", command=lambda: self.aceptar(nombre_atributo,opcion_elegida) )
-      botonAceptar.pack(side=tk.LEFT)
-      botonCancelar = tk.Button(barra, text="Cancelar", command=self.cancelar)
-      botonCancelar.pack(side=tk.LEFT)
+         botonAceptar = tk.Button(barra, text="Aceptar", command=lambda: self.aceptar(nombre_atributo,opcion_elegida) )
+         botonAceptar.pack(side=tk.LEFT)
+         botonCancelar = tk.Button(barra, text="Cancelar", command=self.cancelar)
+         botonCancelar.pack(side=tk.LEFT)
       
-      self.edicion.resizable(False, False)
-      self.edicion.wait_visibility() 
-      self.edicion.grab_set()                 # define el dialogo como ventana en primer plano
-      self.edicion.wait_window()              # en lugar de edicion.mainloop()
+         self.edicion.resizable(False, False)
+         self.edicion.wait_visibility() 
+         self.edicion.grab_set()                 # define el dialogo como ventana en primer plano
+         self.edicion.wait_window()              # en lugar de edicion.mainloop()
 
    def aceptar(self,nombre_atributo,opcion_elegida):
       if(opcion_elegida.get()!='a priori'):
@@ -208,9 +215,11 @@ class Aplicacion(tk.Frame):
       #TODO
       
    def editar_precision(self):
-      self.precision = abs(askinteger("Editar precisión", "Ingrese la cantidad de decimales:"))
-      self.texto.set(f"Precisión:{self.precision}")
-      self.dibujar(self.escenario,self.listbox,self.color_escenario) ########### 
+      resultado = askinteger("Editar precisión", "Ingrese la cantidad de decimales:")
+      if resultado>=0:
+         self.precision = resultado#abs(resultado)
+         self.texto.set(f"Precisión:{self.precision}")
+         self.dibujar(self.escenario,self.listbox,self.color_escenario) ########### 
       
 ventana_ppal=tk.Tk()
 aplicacion=Aplicacion(ventana_ppal)
