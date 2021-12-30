@@ -87,6 +87,11 @@ class Aplicacion(tk.Frame):
       self.canvas=FigureCanvasTkAgg(self.figura,subpanel)
       #self.canvas.get_tk_widget().pack(side=tk.RIGHT,fill=tk.BOTH)      
       self.canvas.get_tk_widget().pack(side=tk.LEFT,fill=tk.BOTH,expand=True)    
+   
+   def configurar_botones(self,estado):
+      self.botonGuardarArchivo.config(state=estado)
+      self.botonEditarHallazgo.config(state=estado)
+      self.botonEditarPrecision.config(state=estado)  
         
    def abrir(self):
       messagebox.showinfo("Información","Se sugiere usar un archivo con atributos discretizados para un buen funcionamiento")
@@ -103,9 +108,7 @@ class Aplicacion(tk.Frame):
          self.figura.clf()
          self.canvas.draw()
          self.canvas.get_tk_widget().config(cursor="arrow")
-         #self.botonGuardarArchivo.config(state=tk.DISABLED)
-         #self.botonEditarHallazgo.config(state=tk.DISABLED)
-         #self.botonEditarPrecision.config(state=tk.DISABLED)
+
          self.configurar_botones(tk.DISABLED)
          self.mostrarAtributos(self.escenario,self.listbox) ###########
 
@@ -113,11 +116,6 @@ class Aplicacion(tk.Frame):
       ruta = filedialog.asksaveasfilename(parent=ventana_ppal,title='Guardar gráfico',filetypes=[('Imagen', '.jpg')])
       if ruta:
          self.figura.savefig(ruta)
-
-   def configurar_botones(self,estado):
-      self.botonGuardarArchivo.config(state=estado)
-      self.botonEditarHallazgo.config(state=estado)
-      self.botonEditarPrecision.config(state=estado)  
 
    def mostrarAtributos(self,datos,listbox):   
       listbox.config(state=tk.NORMAL)
@@ -128,9 +126,7 @@ class Aplicacion(tk.Frame):
    def seleccionar_atributo(self,evento):
       listbox = evento.widget 
       self.dibujar(self.escenario,listbox,self.color_escenario) ########### 
-      #self.botonGuardarArchivo.config(state=tk.NORMAL)
-      #self.botonEditarHallazgo.config(state=tk.NORMAL)
-      #self.botonEditarPrecision.config(state=tk.NORMAL)
+
       self.configurar_botones(tk.NORMAL)
       
    def dibujar(self,datos,listbox,color_grafico):  
