@@ -27,6 +27,5 @@ Captura de pantalla:
 
 1) Abrir la consola de comandos
 2) Cambiar el directorio de trabajo actual por el directorio donde se instalaron los archivos
-3) Escribir python3 monk.py
-
-
+3) Cambiar al directorio donde se encuentra almacenado el archivo monk.py
+4) Escribir python3 monk.py (sino funciona, entonces probar escribir python monk.py)
