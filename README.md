@@ -35,6 +35,9 @@ Captura de pantalla:
 ![screenshot](https://github.com/diegofiuba/monk/blob/main/screenshots/screenshot2.jpg?raw=true)
 
 En este caso: 
+\
 Los archivos se instalaron en C:/monk
+\
 El archivo monk.py se encuentra ubicado en C:/monk/monk
+\
 Y se ha abierto la aplicación escribiendo python monk.py
