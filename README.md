@@ -29,3 +29,12 @@ Captura de pantalla:
 2) Cambiar el directorio de trabajo actual por el directorio donde se instalaron los archivos
 3) Cambiar al directorio donde se encuentra almacenado el archivo monk.py
 4) Escribir python3 monk.py (sino funciona, entonces probar escribir python monk.py)
+
+ Ejemplo:
+
+![screenshot](https://github.com/diegofiuba/monk/blob/main/screenshots/screenshot2.jpg?raw=true)
+
+En este caso: 
+Los archivos se instalaron en C:/monk
+El archivo monk.py se encuentra ubicado en C:/monk/monk
+Y se ha abierto la aplicación escribiendo python monk.py
