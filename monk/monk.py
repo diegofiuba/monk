@@ -15,10 +15,9 @@ print("opening monk")
 
 class CartelAcercaDe(tk.simpledialog.Dialog):
    def __init__(self, ancestro):
-      tk.simpledialog.Dialog.__init__(self,ancestro)
+      tk.simpledialog.Dialog.__init__(self,ancestro,title="Acerca de Monk")
       
    def body(self, ancestro):   
-      self.title("Acerca de Monk")
       version = tk.Label(ancestro,text="Versión 1.0")
       version.pack()
 
