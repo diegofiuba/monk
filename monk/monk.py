@@ -115,6 +115,14 @@ class Aplicacion(tk.Frame):
       self.botonEditarHallazgo.config(state=estado)
       self.botonEditarPrecision.config(state=estado)  
         
+   def establecer_escenario_apriori(self):
+      self.escenario=self.apriori
+      self.color_escenario=self.color_apriori     
+        
+   def establecer_escenario_aposteriori(self,nombre_atributo,valor):
+      self.escenario=self.apriori.new_scenario(nombre_atributo,valor) #*********#  
+      self.color_escenario=self.color_aposteriori   
+        
    def abrir(self):
       messagebox.showinfo("Información","Se sugiere usar un archivo con atributos discretizados para un buen funcionamiento")
       ruta = filedialog.askopenfilename(parent=ventana_ppal,title='Abrir archivo csv',filetypes=[('Archivo separado por comas', '.csv')],multiple=False)
@@ -122,10 +130,11 @@ class Aplicacion(tk.Frame):
          df=pd.read_csv(ruta)
          self.ventana_ppal.title("Monk - "+ruta)
          self.apriori=core.Data(df) ###########
-         self.escenario=self.apriori
          self.color_apriori='tab:green'
          self.color_aposteriori='tab:red'
-         self.color_escenario=self.color_apriori
+         #self.escenario=self.apriori
+         #self.color_escenario=self.color_apriori
+         self.establecer_escenario_apriori()
          self.listbox.delete(0, tk.END)
          self.figura.clf()
          self.canvas.draw()
@@ -148,9 +157,10 @@ class Aplicacion(tk.Frame):
    def seleccionar_atributo(self,evento):
       listbox = evento.widget 
       self.dibujar(self.escenario,listbox,self.color_escenario) ########### 
-
+      
       self.configurar_botones(tk.NORMAL)
       
+ 
    def dibujar(self,datos,listbox,color_grafico):  
       #obtengo posicion del item seleccionado de la lista
       seleccion = listbox.curselection()
@@ -223,11 +233,13 @@ class Aplicacion(tk.Frame):
 
    def aceptar(self,nombre_atributo,opcion_elegida):
       if(opcion_elegida.get()!='a priori'):
-        self.escenario=self.apriori.new_scenario(nombre_atributo,opcion_elegida.get()) #*********#  
-        self.color_escenario=self.color_aposteriori
+        #self.escenario=self.apriori.new_scenario(nombre_atributo,opcion_elegida.get()) #*********#  
+        #self.color_escenario=self.color_aposteriori
+        self.establecer_escenario_aposteriori(nombre_atributo,opcion_elegida.get())
       else:
-        self.escenario=self.apriori
-        self.color_escenario=self.color_apriori
+        #self.escenario=self.apriori
+        #self.color_escenario=self.color_apriori
+        self.establecer_escenario_apriori()
       self.dibujar(self.escenario,self.listbox,self.color_escenario) ########### 
       self.edicion.destroy()
       
